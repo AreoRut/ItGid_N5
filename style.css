@@ -21,3 +21,6 @@ h1,h2{
     }
     .red { color: red; }
     .blue { color: blue; }
+    div{
+         margin-top: 20px;
+         margin-bottom: 20px;}
