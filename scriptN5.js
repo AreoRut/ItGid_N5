@@ -1,10 +1,10 @@
 //document.querySelector('button').onclick = () => { }
 /////////////////////////////////////////////////////////////
-/*document.querySelector('button').onclick = myFunc;
+document.querySelector('button').onclick = myFunc;
 function myFunc() {
 }
 ////////////////////////////////////////////////////////////
-document.querySelector('#button2').onclick = () => {
+/*document.querySelector('#button2').onclick = () => {
     console.log(document.querySelector('#i2').value);
     let myCheckBox = document.querySelector('#i2');
     console.log(myCheckBox.checked);
@@ -24,8 +24,8 @@ document.querySelector('#button2').onclick = () => {
 //console.log("******************");
 //if (i == 4) break;
 //}
-/*
-let div = document.querySelectorAll('.one');
+
+/*let div = document.querySelectorAll('.one');
 //console.log(div);
 //div.style.background = 'red';
 for (let i = 0; i < div.length; i++) {
@@ -41,11 +41,11 @@ let c = document.getElementsByTagName('div');
 console.log(b);
 console.log(c);
 for (let i = 0; i < b.length; i++) {
-    //b[i].style.border = '3px solid black';
+    b[i].style.border = '3px solid black';
     //c[i].
 }*/
-
-document.querySelector('button').onclick = () => {
+/////////////////////////////////////////////////////////////////////////!!!!!
+/*document.querySelector('button').onclick = () => {
     let r = document.querySelectorAll('input[type="radio"]');
     console.log(r);
     for (let i = 0; i < r.length; i++) {
@@ -60,9 +60,8 @@ for (let i = 0; i < 9; i++) {
     out += i + ' ';
     //console.log(i);
     //if (i == 6) break;
-
 }
-document.querySelector('#out').innerHTML = out;
+document.querySelector('#out').innerHTML = out;*/
 
 //#1-3
 /*
@@ -78,11 +77,11 @@ let = ' ';
 for (i = 0; i < 10; i = i + 2) {
     out2 += i + ' ';
 }
-document.querySelector('#out2').innerHTML = out2;*/
+document.querySelector('#out2').innerHTML = out2;
 //////////////////////////////////////////////////////////////////
 document.querySelector('#but1').onclick = () => {
     console.log("Workt");
-}
+}*/
 ////////////////////////
 //#5
 /*
@@ -95,7 +94,7 @@ document.querySelector('#out3').innerHTML = out3;
 */
 //////////////////////////////////////////////////////////////////////
 //#7
-
+/*
 let button2 = document.querySelector('#but2');
 let in1 = document.querySelector('#in1');
 let out5 = document.querySelector('#out5');
@@ -110,10 +109,10 @@ button2.onclick = () => {
         //console.log(i);
     }
     document.querySelector('#out5').innerHTML = out5;
-}
+}*/
 //#11
-let div = document.querySelectorAll('.two');
 
+/*let div = document.querySelectorAll('.two');
 let b = document.getElementsByClassName('two');
 let c = document.getElementsByTagName('div');
 console.log(b);
@@ -121,7 +120,7 @@ console.log(b);
 let l = 0;
 for (let i = 0; i < div.length; i++) {
     console.log(div[i]);
-    div[i].style.background = 'grey';
+    //div[i].style.background = 'grey';
     //div[i].onclick = two;
     console.log(i);
     l = div.length;
@@ -131,6 +130,34 @@ for (let i = 0; i < div.length; i++) {
     //document.querySelector('#out6').innerHTML = l;
     //document.querySelector('#out6').innerHTML = c.length;
 } document.querySelector('#out6').innerHTML = l;
+document.querySelector('#out6').innerHTML = le;
 //document.querySelector('#out6').innerHTML = b.length;
-
+*/
 //#13
+
+document.querySelector('#but3').onclick = () => {
+    let div2 = document.querySelectorAll('input[type="hidden"]');
+    //console.log(div2);
+    for (let i = 0; i < div2.length; i++) {
+        //console.log(div2[i].value);
+        //console.log(div2[i]);
+        //console.log(div2);
+        document.querySelector('#out7').innerHTML = div2;
+        document.querySelector('#out7').innerHTML = div2[i];
+    }
+}
+//////////////#15
+
+document.querySelector('#but4').onclick = () => {
+    let div4 = document.querySelectorAll('input[type="text"]');
+    console.log(div4.values);
+    for (let i = 0; i < div4.length; i++) {
+        //console.log(div4);
+        //console.log(div4[i]);
+        //console.log(div4[i].value);
+
+    }
+    console.log(div4.length);
+}
+//#17
+
